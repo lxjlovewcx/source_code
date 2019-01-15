@@ -9,8 +9,8 @@ class Gamestats():
         #做到一举两得
         self.reset_stats()
 
-        #游戏刚启动时处于活动状态。
-        self.game_active = True
+        #游戏刚启动时处于非活动状态。
+        self.game_active = False
 
     def reset_stats(self):
         """初始化在游戏过程中可能变化的统计信息"""

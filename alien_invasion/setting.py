@@ -22,11 +22,25 @@ class Settings():
 
         #外星人的设置
         self.alien_x_speed = 1    #外星人x移动速度
-        self.alien_y_speed = 30   #外星人y移动速度
+        self.alien_y_speed = 10   #外星人y移动速度
         #设置外星人x方向上的移动方向1或者-1
         self.alien_direction = 1   #用于调整方向
 
         #飞船的数量
         self.ship_limit = 3
+
+        #游戏等级提升速度设置
+        self.aliens_speedup_level = 3
+
+        #随着游戏重新开始，游戏被初始化
+        self.game_setting_initizlization()
+
+    def game_setting_initizlization(self):
+        self.alien_x_speed = 1
+        self.alien_y_speed = 10
+
+    def game_speedup_level(self):
+        self.alien_x_speed *= self.aliens_speedup_level
+        self.alien_y_speed *= self.aliens_speedup_level
 
 

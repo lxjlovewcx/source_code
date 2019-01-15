@@ -59,6 +59,8 @@ def check_bullet_alien_collision(setting, screen, aliens, ship, bullets):
     if len(aliens) == 0:
         """删除现有的子弹并创建一批外星人"""
         bullets.empty()
+        #当外星人全部被消灭，即将创建新的外形人的时候，修改设置，使其升级。
+        setting.game_speedup_level()
         creat_fleet(setting, screen, aliens, ship)
 
 def update_bullets(setting, screen, ship, aliens, bullets):
@@ -94,7 +96,10 @@ def ship_hit(game_stats, aliens, bullets, setting, screen, ship):
         # 暂停1s
         sleep(1)
     else:
+        #表明游戏结束
         game_stats.game_active = False
+        #游戏鼠标可以见了
+        pygame.mouse.set_visible(True)
 
 def check_alien_ship_collision(aliens, ship, game_stats, setting, screen, bullets):
     """响应外星人和飞船的碰撞，并且显示hit"""
@@ -147,7 +152,37 @@ def check_keyup_event(event, ship):
         # 向右移动飞行
         ship.moving_left = False
 
-def check_events(setting, screen, ship, bullets):
+def check_play_button(game_stats, play_button, mouse_x, mouse_y, aliens, bullets, ship, setting, screen):
+    """在玩家点击playbutton后开始新游戏，game_stats.game_active状态变化"""
+    # 添加参数play_button, 以确定玩家是否单击了play按钮
+    # game_stats 以访问game.active
+    #为了解决在游戏开始后玩家点击 原来区域的位置是，游戏任然会做出相应并重新开始，我们添加了限制条件，当game_active为false时才能。
+    play_button_collide = play_button.button_rect.collidepoint(mouse_x, mouse_y)
+    if (game_stats.game_active == False) and play_button_collide:
+        #游戏设置被初始化
+        setting.game_setting_initizlization()
+
+        #检查鼠标是否在button的rect内
+        #重置游戏统计信息
+        #此处就用上了，不是在游戏初始化时使用，而是游戏结束后使用。游戏重置状态为3次。
+        #每次结束游戏后，用户点击开始按钮后触发重新开始，但是外星人数量和子弹可能都变了，
+        # 不能称职为新的开始。以为新的游戏开始的条件包括状态为True，飞船数量不能小于0，分数和外星人都必须
+        # 是全新的。
+        game_stats.reset_stats()
+        game_stats.game_active = True
+
+        #游戏开始后隐藏光标
+        pygame.mouse.set_visible(False)
+
+        # 清空子弹和外星人列表
+        aliens.empty()
+        bullets.empty()
+
+        # 创建一批新的外星人，并将飞船位置居中
+        creat_fleet(setting, screen, aliens, ship)
+        ship.ship_center()
+
+def check_events(game_stats, play_button, aliens, bullets, ship, setting, screen):
     """响应按键和鼠标按键"""
     for event in pygame.event.get():
         '''
@@ -177,10 +212,15 @@ def check_events(setting, screen, ship, bullets):
             check_keydown_event(event, setting, ship, screen, bullets)
         elif event.type == pygame.KEYUP:
             check_keyup_event(event, ship)
+        #检查鼠标点击事件
+        elif event.type == pygame.MOUSEBUTTONDOWN:
 
-def update_screen(setting, screen, ship, bullets, aliens):
+        # 通过检查游戏按钮是否与鼠标指针发生碰撞，修改游戏状态
+            mouse_x, mouse_y = pygame.mouse.get_pos() #返回一个元祖
+            check_play_button(game_stats, play_button, mouse_x, mouse_y, aliens, bullets, ship, setting, screen)
+
+def update_screen(setting, screen, ship, bullets, aliens, play_button, game_stats):
     """更新屏幕上的图画并切换到新屏幕"""
-
     # 每次循环时都会重新重绘画面
     screen.fill(setting.bg_color)
 
@@ -194,6 +234,11 @@ def update_screen(setting, screen, ship, bullets, aliens):
     # 绘制外星人群
     for alien in aliens:
         alien.blitme()
+
+    """如果游戏处于非活动状态，就绘制play按钮"""
+    #放在这个位置，表示让这个按钮位于其他图标的上面，因此在绘制其他所有游戏元素后再绘制这个图标
+    if not game_stats.game_active:
+        play_button.draw_button()
 
 
     # 让最近绘制的屏幕可见
