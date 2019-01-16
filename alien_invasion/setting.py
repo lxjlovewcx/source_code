@@ -11,6 +11,9 @@ class Settings():
         #飞船移动速度设置
         self.ship_speed_factor = 1.5
 
+        #飞船的移动速度提升
+        self.ship_speedup = 1.2
+
         #子弹设置
         self.bullet_speed_factor = 3   #子弹的速度
         self.bullet_width = 3         #子弹的宽度
@@ -25,12 +28,16 @@ class Settings():
         self.alien_y_speed = 10   #外星人y移动速度
         #设置外星人x方向上的移动方向1或者-1
         self.alien_direction = 1   #用于调整方向
+        self.alien_point = 30 #外星人点数
+
+        #设置随着游戏升级，点数逐渐提高
+        self.point_speedup = 1.5
 
         #飞船的数量
         self.ship_limit = 3
 
         #游戏等级提升速度设置
-        self.aliens_speedup_level = 3
+        self.aliens_speedup_level = 1.2
 
         #随着游戏重新开始，游戏被初始化
         self.game_setting_initizlization()
@@ -38,9 +45,17 @@ class Settings():
     def game_setting_initizlization(self):
         self.alien_x_speed = 1
         self.alien_y_speed = 10
+        self.alien_point = 30
+        self.ship_speed_factor = 1.5
+        self.bullet_speed_factor = 3
 
     def game_speedup_level(self):
         self.alien_x_speed *= self.aliens_speedup_level
         self.alien_y_speed *= self.aliens_speedup_level
+        self.ship_speed_factor *= self.ship_speedup
+        self.bullet_speed_factor *= self.ship_speedup
+
+    def game_point_level(self):
+        self.alien_point *= self.point_speedup
 
 

@@ -21,7 +21,7 @@ class Ship():
 
         #将每艘飞船初始位置设定为屏幕下部正中央
         self.rect.centerx = self.screen_rect.centerx #获取rect属性后，就可以设置相应属性：center
-        #centerx、centery.
+        #centerx、centery , x, y, top, bottom, left, right
         self.rect.bottom = self.screen_rect.bottom
 
         #在self.center中存储小数值

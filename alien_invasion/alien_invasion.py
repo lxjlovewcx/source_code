@@ -5,6 +5,7 @@ import game_functions as gf #里面是函数，为了防止导入太过复杂，
 from pygame.sprite import Group
 from game_stats import Gamestats
 from button import Button
+from scoreboard import Scoreboard
 def run_game():
     #初始化游戏并创建一个屏幕对象
     pygame.init()
@@ -30,6 +31,9 @@ def run_game():
     #创建一个按钮
     play_button = Button(screen, "play", setting)
 
+    #创建一个记分牌
+    scoreboard = Scoreboard(screen, aliens, game_stats)
+
     #开始游戏 的主循环
     while True:
         #监视键盘和鼠标事件，不管是否游戏进行
@@ -47,13 +51,13 @@ def run_game():
             ship.update()
 
             #更新子弹位置，删除已经消失的子弹
-            gf.update_bullets(setting, screen, ship, aliens, bullets)
+            gf.update_bullets(setting, screen, ship, aliens, bullets, game_stats, scoreboard)
 
             #更新外星人的位置
             gf.update_aliens(setting, game_stats, aliens, ship, screen, bullets)
 
         #更新屏幕上的图画并切换到新屏幕，重新绘制屏幕，飞船，子弹和外星人，不管是否游戏进行
-        gf.update_screen(setting, screen, ship, bullets, aliens, play_button, game_stats)
+        gf.update_screen(setting, screen, ship, bullets, aliens, play_button, game_stats, scoreboard)
 
 run_game()
 

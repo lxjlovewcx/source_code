@@ -51,22 +51,28 @@ def fire_bullet(bullets, setting, screen, ship):
         new_bullet = Bullet(setting, screen, ship)
         bullets.add(new_bullet)
 
-def check_bullet_alien_collision(setting, screen, aliens, ship, bullets):
+def check_bullet_alien_collision(setting, screen, aliens, ship, bullets, game_stats, scoreboard):
     """响应外星人和子弹的碰撞，并且在aliens和bullets组中剔除"""
     """将删除的字典元素存储到collisions字典中"""
     collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
+    if collisions:
+        for collision in collisions.values():
+            game_stats.score += setting.alien_point * len(collision)
+        scoreboard.prep_score()
+        check_high_score(game_stats, scoreboard)
 
     if len(aliens) == 0:
         """删除现有的子弹并创建一批外星人"""
         bullets.empty()
         #当外星人全部被消灭，即将创建新的外形人的时候，修改设置，使其升级。
         setting.game_speedup_level()
+        setting.game_point_level()
         creat_fleet(setting, screen, aliens, ship)
 
-def update_bullets(setting, screen, ship, aliens, bullets):
+def update_bullets(setting, screen, ship, aliens, bullets, game_stats, scoreboard):
     # 子弹位置更新,并且删除消失的子弹
     bullets.update()
-    check_bullet_alien_collision(setting, screen, aliens, ship, bullets)
+    check_bullet_alien_collision(setting, screen, aliens, ship, bullets, game_stats, scoreboard)
     for bullet in bullets:
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
@@ -182,6 +188,13 @@ def check_play_button(game_stats, play_button, mouse_x, mouse_y, aliens, bullets
         creat_fleet(setting, screen, aliens, ship)
         ship.ship_center()
 
+def check_high_score(game_stats, scoreboard):
+    """检查是否产生了新的最高分"""
+    if game_stats.hightest_score < game_stats.score:
+        game_stats.hightest_score = game_stats.score
+        scoreboard.prep_high_score()
+
+
 def check_events(game_stats, play_button, aliens, bullets, ship, setting, screen):
     """响应按键和鼠标按键"""
     for event in pygame.event.get():
@@ -219,13 +232,16 @@ def check_events(game_stats, play_button, aliens, bullets, ship, setting, screen
             mouse_x, mouse_y = pygame.mouse.get_pos() #返回一个元祖
             check_play_button(game_stats, play_button, mouse_x, mouse_y, aliens, bullets, ship, setting, screen)
 
-def update_screen(setting, screen, ship, bullets, aliens, play_button, game_stats):
+def update_screen(setting, screen, ship, bullets, aliens, play_button, game_stats, scoreboard):
     """更新屏幕上的图画并切换到新屏幕"""
     # 每次循环时都会重新重绘画面
     screen.fill(setting.bg_color)
 
     #重新绘制飞船
     ship.blitme()
+
+    #绘制记分牌
+    scoreboard.draw_scoreboard()
 
     # 在飞船和外星人后面重绘所有子弹
     for bullet in bullets:
