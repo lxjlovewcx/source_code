@@ -5,13 +5,14 @@ import pygal
 import math
 from itertools import groupby
 
+
 json_url = "https://raw.githubusercontent.com/muxuezi/btc/master/btc_close_2017.json"
 request = requests.get(json_url)
 with open('hehe.json', 'w') as f:
     f.write(request.text)
 with open('hehe.json') as f:
     file_objects = json.load(f)
-
+77
 dates = []
 months = []
 weeks = []
@@ -23,9 +24,9 @@ for file_object in file_objects:
     months.append(file_object['month'])
     weeks.append(file_object['week'])
     weekdays.append(file_object['weekday'])
-    closes.append(math.log10(int(float(file_object['close']))))
+    closes.append(int(float(file_object['close'])))
 
-
+print(closes)
 
 def draw_line(x_data, y_data, title, y_legend):
     xy_map = []
@@ -33,7 +34,7 @@ def draw_line(x_data, y_data, title, y_legend):
         y_list = [v for _, v in j]
         xy_map.append([i, sum(y_list) / len(y_list)])
     x_value, y_value = [*zip(*xy_map)]
-    line_chart = pygal.Line(x_label_rotation=20, show_minor_x_labels=False)
+    line_chart = pygal.Line()     #由于设置了x_label_rotation 参数,导致无法显示x数值。
     line_chart.title = title
     line_chart.x_labels = x_value
     line_chart.add(y_legend, y_value)

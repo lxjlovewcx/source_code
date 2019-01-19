@@ -75,7 +75,7 @@
       <file leaf-file-name="highest_lowest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/highest_lowest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="31">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -87,8 +87,8 @@
       <file leaf-file-name="btc_close_2017_respon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/btc_close_2017_respon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="85" column="95" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="95" />
+            <state relative-caret-position="303">
+              <caret line="78" column="44" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="44" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -99,8 +99,8 @@
       <file leaf-file-name="btc_close_2017_new.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/btc_close_2017_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="31">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -111,8 +111,8 @@
       <file leaf-file-name="haha.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haha.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2604">
-              <caret lean-forward="true" />
+            <state relative-caret-position="558">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -213,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.btc_close_2017_respon">
+  <component name="RunManager" selected="Python.btc_close_2017_new">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="produce_data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,6 +247,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/btc_close_2017.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="btc_close_2017_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="produce_data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/btc_close_2017_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,39 +328,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="np" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="produce_data" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/np.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.die_visual" />
       <item itemvalue="Python.highest_lowest" />
-      <item itemvalue="Python.np" />
       <item itemvalue="Python.btc_close_2017" />
       <item itemvalue="Python.btc_close_2017_respon" />
+      <item itemvalue="Python.btc_close_2017_new" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.btc_close_2017_new" />
         <item itemvalue="Python.btc_close_2017_respon" />
         <item itemvalue="Python.highest_lowest" />
         <item itemvalue="Python.die_visual" />
         <item itemvalue="Python.btc_close_2017" />
-        <item itemvalue="Python.np" />
       </list>
     </recent_temporary>
   </component>
@@ -363,13 +363,13 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1705757" side_tool="true" visible="true" weight="0.29310346" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17110874" side_tool="true" visible="true" weight="0.14224137" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8294243" weight="0.29310346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8288913" weight="0.14224137" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.120469086" />
       <window_info anchor="right" id="SciView" order="3" weight="0.7398721" />
@@ -684,15 +684,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/highest_lowest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="31">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -703,30 +700,30 @@
     <entry file="file://$PROJECT_DIR$/closes of price1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/haha">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/btc_close_2017_respon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="85" column="95" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="95" />
+        <state relative-caret-position="303">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="44" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/haha.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2604">
-          <caret lean-forward="true" />
+        <state relative-caret-position="558">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/btc_close_2017_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="31">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
