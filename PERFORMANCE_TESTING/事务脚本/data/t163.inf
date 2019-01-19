@@ -1,0 +1,13 @@
+[t163]
+FileName1=t163.htm
+URL1=http://127.0.0.1:1080/WebTours/itinerary.pl
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_31.xml
+RequestHeaderFile=t163_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t163_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

@@ -1,0 +1,13 @@
+[t82]
+FileName1=t82_cancelreservation.gif
+URL1=http://127.0.0.1:1080/WebTours/images/cancelreservation.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t82_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t82_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

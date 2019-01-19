@@ -1,0 +1,150 @@
+#-*- coding:utf-8 -*-
+#此函数用于后台添加商品分类，商品属性，商品品牌，添加商品,与前台断言
+from selenium import webdriver
+from time import sleep
+import unittest
+from selenium.webdriver.support.select import Select
+
+class goods(unittest.TestCase):
+    def setUp(self):
+        self.driver=webdriver.Firefox()
+        self.url="http://172.31.25.125/admin/"
+        self.driver.set_script_timeout(20)
+        self.driver.implicitly_wait(20)
+    def test_goods(self,admin_username="jn",admin_password="jn123456",st="商品分类",ss="商品品牌",se="商品属性",sy="商品名称",sz="120"):
+        driver=self.driver
+        driver.get(self.url)             
+        #登录后台
+        self.adminlogin(driver, admin_username, admin_password)
+        #添加分类
+        self.goods_class(driver,st) 
+        #添加品牌
+        self.goods_brand(driver, ss)
+        #添加属性
+        self.goods_attribute(driver, se) 
+        #添加商品       
+        #调用add_goods函数，获取返回值stt，stw
+        stw,stt=self.add_goods(driver,sy,sz,st)
+        #打开前台首页
+        js='window.open("http://172.31.25.125/");'
+        driver.execute_script(js)
+        web2 = driver.current_window_handle # 输出当前窗口句柄（前台）
+        #print (handles=driver.window_handles) # 输出句柄集合
+        for handle in driver.window_handles:# 切换窗口（前台）
+            if handle!=web2:
+                driver.switch_to.window(handle)
+#       print driver.current_window_handle # 输出当前窗口句柄（前台）
+       
+        #在前台找到刚添加的分类名称用来断言
+        driver.find_element_by_xpath("//div[@id='category_tree']").find_element_by_link_text(st).click()
+        sleep(10)
+        #在前台找到刚添加的名称用来断言
+        goods_name=driver.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/form/div/div/div[1]/p/a").text
+        #在前台找到刚添加的价格用来断言
+        money=driver.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/form/div/div/div[1]/font[2]").text   
+        print(money)
+#         if sz==money:
+#             return i 
+        #用列表的方式整体断言，根据实际情况拼凑字符串
+        list1=[goods_name,money]
+        list2=[stw,"￥"+stt[:-3]+"元"]
+        self.assertEqual(list2, list1)
+    def goods_class(self,driver,st): 
+        #切换到左侧主菜单栏选择分类
+        #menu_frame=driver.find_element_by_id("menu-frame")
+        driver.switch_to_frame("menu-frame") 
+         
+        driver.find_element_by_link_text("商品分类").click()
+        driver.switch_to_default_content()
+        main_frame=driver.find_element_by_id("main-frame") 
+        driver.switch_to_frame(main_frame) 
+        driver.find_element_by_link_text("添加分类").click()
+        driver.switch_to_default_content()
+        a=driver.find_element_by_name("main-frame")
+        driver.switch_to_frame(a)
+        driver.find_element_by_name("cat_name").send_keys(st)
+        sleep(0.5)
+        driver.find_element_by_xpath("//input[@value=' 确定 ']").click()
+        driver.switch_to_default_content()
+    def goods_brand(self,driver,ss): 
+        #切换到左侧主菜单栏选择品牌
+        #menu_frame=driver.find_element_by_id("menu-frame")
+        driver.switch_to_frame("menu-frame") 
+        driver.find_element_by_link_text("商品品牌").click()
+        driver.switch_to_default_content()
+        main_frame=driver.find_element_by_id("main-frame") 
+        driver.switch_to_frame(main_frame) 
+        driver.find_element_by_link_text("添加品牌").click()
+        driver.switch_to_default_content() 
+        a=driver.find_element_by_name("main-frame")
+        driver.switch_to_frame(a) 
+        driver.find_element_by_name("brand_name").send_keys(ss)
+        driver.find_element_by_xpath("//input[@value=' 确定 ']").click()
+        driver.switch_to_default_content()
+    def goods_attribute(self,driver,se): 
+        #切换到左侧主菜单栏选择属性
+        #menu_frame=driver.find_element_by_id("menu-frame")
+        driver.switch_to_frame("menu-frame") 
+        driver.find_element_by_link_text("商品类型").click()
+        driver.switch_to_default_content()
+        main_frame=driver.find_element_by_id("main-frame") 
+        driver.switch_to_frame(main_frame) 
+        driver.find_element_by_link_text("新建商品类型").click()
+        driver.switch_to_default_content() 
+        a=driver.find_element_by_name("main-frame")
+        driver.switch_to_frame(a) 
+        driver.find_element_by_name("cat_name").send_keys(se)
+        driver.find_element_by_xpath("//input[@value=' 确定 ']").click()
+        driver.switch_to_default_content() 
+    def add_goods(self,driver,sy,sz,st):
+        #切换到左侧主菜单栏选择添加商品
+        #menu_frame=driver.find_element_by_id("menu-frame")
+        driver.switch_to_frame("menu-frame") 
+        driver.find_element_by_link_text("添加新商品").click()
+        driver.switch_to_default_content()
+        main_frame=driver.find_element_by_id("main-frame") 
+        driver.switch_to_frame(main_frame)
+        sleep(3)  
+        #输入商品名称
+        driver.find_element_by_name("goods_name").send_keys(sy)
+        sleep(4)
+        #选择下拉菜单商品分类
+        element=driver.find_element_by_xpath("//select[@name='cat_id']")
+        sel=Select(element)       
+        #把下拉选框中的所有内容遍历一遍，对比我想要的结果是不是在里面，在里面就选择我要的那个文本
+        for select in sel.options:
+            if st in select.text:
+                sel.select_by_visible_text(select.text)                   
+        #需要断言的分类名称
+        driver.find_element_by_xpath("//input[@name='shop_price']").send_keys(sz)
+        #点击确定    
+        driver.find_element_by_xpath("//input[@value=' 确定 ']").click()
+        sleep(6)
+        driver.switch_to_default_content()
+        driver.switch_to_frame("menu-frame") 
+        driver.find_element_by_link_text("商品列表").click()
+        driver.switch_to_default_content()
+        main_frame=driver.find_element_by_id("main-frame") 
+        driver.switch_to_frame(main_frame) 
+        #用来断言商品名称
+        stw=driver.find_element_by_xpath("/html/body/form/div[1]/table[1]/tbody/tr[4]/td[2]/span").text 
+        #用来断言商品价格
+        stt=driver.find_element_by_xpath("/html/body/form/div[1]/table[1]/tbody/tr[4]/td[4]/span").text
+        return stw,stt 
+                 
+    def adminlogin(self,driver,admin_username,admin_password):
+        driver.find_element_by_name("username").send_keys(admin_username)
+        driver.find_element_by_name("password").send_keys(admin_password)
+        driver.find_element_by_class_name("button").click()
+        driver.switch_to_frame("header-frame")
+        driver.find_element_by_link_text("个人设置").click()
+        driver.switch_to_default_content()
+        driver.switch_to_frame("main-frame")   
+        actual_name = driver.find_element_by_name("user_name").get_attribute("value")
+        sleep(1)
+        self.assertEqual(actual_name, admin_username)
+        driver.switch_to_default_content()
+                  
+    def tearDown(self):
+        self.driver.quit()
+        

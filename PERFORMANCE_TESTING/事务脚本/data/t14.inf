@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14_picinfo.html
+URL1=http://se.360.cn/cloud/picinfo.ini
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

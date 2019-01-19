@@ -1,0 +1,13 @@
+[t152]
+FileName1=t152.htm
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?page=search
+Total=1
+RequestHeaderFile=t152_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t152_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_20.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

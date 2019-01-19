@@ -1,0 +1,11 @@
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 21 Oct 2016 03:47:39 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2416
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 21 Oct 2016 03:47:38 GMT
+Expires: Thu, 20 Oct 2016 03:47:38 GMT
+Set-cookie: MTUserInfo=firstName&Joseph&username&jojo&address2&San%20Jose%2FCA%2F94085&hash&47&address1&234%20Willow%20Drive&lastName&Marshall%0A; path=/
+

@@ -1,0 +1,602 @@
+1531743906972	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531743906972	geckodriver	INFO	Listening on 127.0.0.1:61430
+1531743909047	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.8SxXUyqjgCvy"
+1531743912235	Marionette	INFO	Listening on port 61438
+1531743912400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531743912451	Marionette	DEBUG	[6442450945] Frame script loaded
+1531743912454	Marionette	DEBUG	[6442450945] Frame script registered
+1531743912660	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531743912729	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531743912838	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531743914038	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531743914139	Marionette	INFO	Stopped listening on port 61438
+1531743914165	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531744038484	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531744038484	geckodriver	INFO	Listening on 127.0.0.1:61488
+1531744040544	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.OAj0tJebe87G"
+1531744043826	Marionette	INFO	Listening on port 61495
+1531744044334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531744044395	Marionette	DEBUG	[6442450945] Frame script loaded
+1531744044396	Marionette	DEBUG	[6442450945] Frame script registered
+1531744044422	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531744044492	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531744044633	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531744045753	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531744045805	Marionette	INFO	Stopped listening on port 61495
+1531744045845	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531744084080	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531744084096	geckodriver	INFO	Listening on 127.0.0.1:61534
+1531744086171	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.kvz7wp1VVw9F"
+1531744089501	Marionette	INFO	Listening on port 61542
+1531744090023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531744090064	Marionette	DEBUG	[6442450945] Frame script loaded
+1531744090065	Marionette	DEBUG	[6442450945] Frame script registered
+1531744090095	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531744090159	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531744090272	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531744091255	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531744091292	Marionette	INFO	Stopped listening on port 61542
+1531744091318	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531744173430	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531744173430	geckodriver	INFO	Listening on 127.0.0.1:61589
+1531744175489	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.t6EJbjmHvXay"
+1531744178636	Marionette	INFO	Listening on port 61598
+1531744178938	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531744178970	Marionette	DEBUG	[6442450945] Frame script loaded
+1531744178971	Marionette	DEBUG	[6442450945] Frame script registered
+1531744179003	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531744179058	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531744179208	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531744180599	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531744180610	Marionette	INFO	Stopped listening on port 61598
+1531744180643	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531744296277	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531744296293	geckodriver	INFO	Listening on 127.0.0.1:61649
+1531744298367	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.oSWco4qmP2an"
+1531744301567	Marionette	INFO	Listening on port 61656
+1531744301879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531744301911	Marionette	DEBUG	[6442450945] Frame script loaded
+1531744301912	Marionette	DEBUG	[6442450945] Frame script registered
+1531744301942	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531744302006	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531744302171	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531744302909	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531744302944	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531744303273	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531744303277	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531744303528	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531744303670	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531744304406	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531744304488	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531744304573	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531744304576	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531744304613	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531744304622	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531744309697	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531744309764	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531744309766	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531744309803	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531744309830	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531744314943	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531744315026	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531744315028	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531744315066	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531744315073	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531744317101	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531744317193	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531744317276	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531744317413	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531744317442	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531744317504	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531744317505	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531744317543	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531744317556	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531744317885	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531744317932	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531744318022	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531744318023	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531744318045	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531744318059	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531744321031	Marionette	INFO	Stopped listening on port 61656
+[GPU 7256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4B0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1531749804415	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531749804415	geckodriver	INFO	Listening on 127.0.0.1:62652
+1531749806521	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.SjydquEgTPBN"
+1531749809984	Marionette	INFO	Listening on port 62658
+1531749810364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531749810409	Marionette	DEBUG	[6442450945] Frame script loaded
+1531749810410	Marionette	DEBUG	[6442450945] Frame script registered
+1531749810439	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531749810586	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531749810727	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749811913	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749812006	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531749812081	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531749812084	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531749812109	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531749812144	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531749812886	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531749812962	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531749813037	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531749813043	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531749813078	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749813090	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749818169	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749818264	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749818276	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749818338	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531749818349	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531749823428	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531749823518	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531749823520	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531749823552	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531749823567	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531749825581	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531749825688	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531749825743	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749825806	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749825869	Marionette	INFO	Stopped listening on port 62658
+[Parent 6096, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1531749838676	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531749838676	geckodriver	INFO	Listening on 127.0.0.1:62744
+1531749840719	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.nhnn2pDstLkH"
+1531749843992	Marionette	INFO	Listening on port 62751
+1531749844040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531749844075	Marionette	DEBUG	[6442450945] Frame script loaded
+1531749844076	Marionette	DEBUG	[6442450945] Frame script registered
+1531749844319	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531749844381	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531749844462	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749845810	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749845885	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531749846005	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531749846010	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531749846652	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531749846686	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531749847433	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531749847544	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531749847611	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531749847613	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531749847635	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749847644	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749852701	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749852780	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749852783	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749852845	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531749852850	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531749857981	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531749858070	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531749858071	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531749858100	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531749858108	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531749860117	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531749860185	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531749860266	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749860413	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749860426	Marionette	INFO	Stopped listening on port 62751
+1531749872666	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531749872682	geckodriver	INFO	Listening on 127.0.0.1:62839
+1531749874772	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.EFuHf0Uutg7N"
+1531749878016	Marionette	INFO	Listening on port 62846
+1531749878217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531749878245	Marionette	DEBUG	[6442450945] Frame script loaded
+1531749878246	Marionette	DEBUG	[6442450945] Frame script registered
+1531749878271	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531749878352	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531749878644	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749880056	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749880109	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531749880175	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531749880177	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531749880234	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531749880900	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531749881626	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531749881723	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531749881800	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531749881801	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531749881840	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749881848	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749886927	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749887004	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749887006	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749887057	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531749887068	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531749892204	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531749892278	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531749892288	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531749892321	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531749892360	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531749894376	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531749894469	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531749894546	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531749894678	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531749894712	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531749894799	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531749894807	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531749894851	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749894895	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749895197	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531749895212	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749895275	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749895276	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749895297	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749895304	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749898371	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749898476	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749898478	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749898546	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531749898558	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531749898608	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531749898667	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531749898668	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531749898694	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531749898716	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531749901804	Marionette	DEBUG	[6442450959] Frame script loaded
+1531749901809	Marionette	DEBUG	[6442450959] Frame script registered
+1531749902987	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/privilege.php?act=login
+1531749903077	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/privilege.php?act=login
+1531749903080	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/privilege.php?act=login
+1531749903111	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/index.php
+1531749903479	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+
+1531749903892	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531749904183	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531749904234	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=list
+1531749904295	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=list
+1531749904296	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=list
+1531749904334	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php?act=edit&id=135
+1531749904379	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php?act=edit&id=135
+1531749904493	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=edit&id=135
+1531749904553	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=edit&id=135
+1531749904555	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=edit&id=135
+1531749904594	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php
+1531749904675	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php
+1531749904697	Marionette	INFO	Stopped listening on port 62846
+[Child 6752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531750115774	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531750115790	geckodriver	INFO	Listening on 127.0.0.1:63075
+1531750117864	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.0A9T6MrJCMWd"
+1531750121154	Marionette	INFO	Listening on port 63081
+1531750121354	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531750121384	Marionette	DEBUG	[6442450945] Frame script loaded
+1531750121487	Marionette	DEBUG	[6442450945] Frame script registered
+1531750121529	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531750121589	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531750121709	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531750123064	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531750123119	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531750123207	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531750123213	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531750123271	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531750123466	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531750124237	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531750124338	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531750124411	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531750124412	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531750124436	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531750124450	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531750129532	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531750129597	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531750129599	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531750129660	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531750129666	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531750134749	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531750134822	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531750134823	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531750134852	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531750134860	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531750136886	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531750136984	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531750137062	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531750137185	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531750137282	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531750137352	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531750137354	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531750137380	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531750137411	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531750137747	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531750137787	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531750137865	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531750137866	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531750137885	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531750137901	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531750140978	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531750141034	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531750141035	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531750141058	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531750141070	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531750141112	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531750141185	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531750141187	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531750141227	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531750141234	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531750144304	Marionette	DEBUG	[6442450959] Frame script loaded
+1531750144311	Marionette	DEBUG	[6442450959] Frame script registered
+1531750145452	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/privilege.php?act=login
+1531750145553	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/privilege.php?act=login
+1531750145554	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/privilege.php?act=login
+1531750145589	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li  class=\"cloud_close\">no_license<a href=\"http:\/\/bbs.ecshop.com\/thread-197647-1-1.html\" target=\"_blank\" >\u70b9\u51fb\u67e5\u770b<a\/><img onclick=\"cloud_close(1)\" src=\"images\/no.gif\"><\/li>"}
+1531750145989	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1531750147661	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531750148011	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531750148041	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=list
+1531750148100	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=list
+1531750148101	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=list
+1531750148146	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php?act=edit&id=136
+1531750148181	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php?act=edit&id=136
+1531750148299	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=edit&id=136
+1531750148344	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=edit&id=136
+1531750148344	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=edit&id=136
+1531750148364	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php
+1531750148434	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php
+1531750148452	Marionette	INFO	Stopped listening on port 63081
+[Parent 7876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7876, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1531790063660	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531790063825	geckodriver	INFO	Listening on 127.0.0.1:49379
+1531790065738	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.o2Hht51gxmN0"
+1531790080107	Marionette	INFO	Listening on port 49385
+1531790080695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531790080831	Marionette	DEBUG	[6442450945] Frame script loaded
+1531790081029	Marionette	DEBUG	[6442450945] Frame script registered
+1531790081355	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531790081657	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531790083169	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531790083579	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531790083736	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531790083817	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531790083819	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531790084127	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531790084150	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531790085612	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531790085858	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531790086229	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531790086234	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531790086399	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790086516	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790091598	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790091673	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790091677	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790091707	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531790091729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531790096828	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531790096905	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531790096906	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531790096956	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531790096968	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531790098993	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531790099073	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531790099144	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531790099246	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531790099309	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531790099381	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531790099383	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531790099424	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790099432	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790099764	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531790099794	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790099872	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790099873	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790099896	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790099904	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790102979	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790103037	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790103038	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790103060	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790103068	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790103118	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790103190	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790103191	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790103343	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531790103352	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531790106464	Marionette	DEBUG	[6442450959] Frame script loaded
+1531790106471	Marionette	DEBUG	[6442450959] Frame script registered
+1531790107656	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/privilege.php?act=login
+1531790107717	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/privilege.php?act=login
+1531790107718	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/privilege.php?act=login
+1531790107732	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1531790108242	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+
+1531790108639	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531790108910	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531790108957	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=list
+1531790109012	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=list
+1531790109012	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=list
+1531790109048	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php?act=edit&id=137
+1531790109084	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php?act=edit&id=137
+1531790109230	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=edit&id=137
+1531790109266	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=edit&id=137
+1531790109267	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=edit&id=137
+1531790109283	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php
+1531790109365	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php
+1531790109383	Marionette	INFO	Stopped listening on port 49385
+1531790130146	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531790130155	geckodriver	INFO	Listening on 127.0.0.1:49556
+1531790132228	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.mCb4uanRi98Q"
+1531790135615	Marionette	INFO	Listening on port 49562
+1531790136282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531790136326	Marionette	DEBUG	[6442450945] Frame script loaded
+1531790136327	Marionette	DEBUG	[6442450945] Frame script registered
+1531790136355	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531790136769	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531790136965	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531790138544	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531790138586	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531790138676	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531790138684	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531790138750	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531790138793	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531790139486	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531790139606	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531790139684	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531790139689	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531790139739	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790139751	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790144830	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790144916	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790144920	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790144970	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531790144998	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531790150132	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=profile
+1531790150217	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=profile
+1531790150220	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=profile
+1531790150258	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=logout
+1531790150287	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=logout
+1531790152304	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=logout
+1531790152400	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=logout
+1531790152471	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531790152614	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531790152633	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531790152703	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531790152710	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531790152751	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790152777	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790153071	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531790153112	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790153211	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790153213	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790153247	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790153252	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790156320	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790156380	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790156381	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790156401	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531790156424	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531790156470	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531790156543	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531790156547	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531790156597	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531790156611	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531790159693	Marionette	DEBUG	[6442450959] Frame script loaded
+1531790159697	Marionette	DEBUG	[6442450959] Frame script registered
+1531790160835	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/privilege.php?act=login
+1531790160911	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/privilege.php?act=login
+1531790160912	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/privilege.php?act=login
+1531790160957	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/index.php
+1531790161490	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/index.php
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+
+1531790161856	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531790162111	Marionette	DEBUG	[6442450959] Canceled page load listener because no navigation has been detected
+1531790162152	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=list
+1531790162209	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=list
+1531790162211	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=list
+1531790162251	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php?act=edit&id=138
+1531790162292	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php?act=edit&id=138
+1531790162400	Marionette	DEBUG	[6442450959] Received DOM event beforeunload for http://172.31.25.125/admin/users.php?act=edit&id=138
+1531790162456	Marionette	DEBUG	[6442450959] Received DOM event pagehide for http://172.31.25.125/admin/users.php?act=edit&id=138
+1531790162459	Marionette	DEBUG	[6442450959] Received DOM event unload for http://172.31.25.125/admin/users.php?act=edit&id=138
+1531790162492	Marionette	DEBUG	[6442450959] Received DOM event DOMContentLoaded for http://172.31.25.125/admin/users.php
+1531790162578	Marionette	DEBUG	[6442450959] Received DOM event pageshow for http://172.31.25.125/admin/users.php
+1531790162588	Marionette	INFO	Stopped listening on port 49562

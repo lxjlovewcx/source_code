@@ -1,0 +1,13 @@
+[t55]
+FileName1=t55_webtours.png
+URL1=http://127.0.0.1:1080/WebTours/images/webtours.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t55_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

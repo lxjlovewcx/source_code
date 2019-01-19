@@ -1,0 +1,13 @@
+[t63]
+FileName1=t63.htm
+URL1=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t63_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t63_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

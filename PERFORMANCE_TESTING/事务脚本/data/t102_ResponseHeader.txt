@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Type: image/x-icon
+Last-Modified: Thu, 20 Oct 2016 01:11:33 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Date: Fri, 21 Oct 2016 03:47:13 GMT
+Content-Length: 300
+

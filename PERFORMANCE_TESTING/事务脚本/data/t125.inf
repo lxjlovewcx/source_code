@@ -1,0 +1,13 @@
+[t125]
+FileName1=t125.htm
+URL1=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=itinerary
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t125_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t125_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

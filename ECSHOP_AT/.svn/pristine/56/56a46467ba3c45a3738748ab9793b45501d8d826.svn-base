@@ -1,0 +1,9 @@
+import time
+def test_goodclass(driver):
+    goodclass = '数码电子'+str(time()*1000)[:6]
+    driver.find_element_by_link_text("商品分类").click()
+    driver.find_element_by_link_text("添加分类").click()
+    driver.find_element_by_name("cat_name").send_keys(goodclass)
+    driver.find_element_by_name("measure_unit").send_keys('99')
+    driver.find_element_by_xpath("//div[@class='button-div']/input[1]").click()
+    return(goodclass)

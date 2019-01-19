@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\事务脚本\事务脚本
+-ID:\amd\include
+-ec:\users\administrator\desktop\事务脚本\事务脚本\\logfile.log
+c:\users\administrator\desktop\事务脚本\事务脚本\\combined_事务脚本.c
+c:\users\administrator\desktop\事务脚本\事务脚本\\pre_cci.c

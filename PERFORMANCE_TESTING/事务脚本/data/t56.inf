@@ -1,0 +1,13 @@
+[t56]
+FileName1=t56_favicon.ico
+URL1=http://www.bing.com/favicon.ico
+Total=1
+ContentType=image/x-icon
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t56_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t56_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

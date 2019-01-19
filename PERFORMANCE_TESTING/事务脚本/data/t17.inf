@@ -1,0 +1,13 @@
+[t17]
+FileName1=t17.htm
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

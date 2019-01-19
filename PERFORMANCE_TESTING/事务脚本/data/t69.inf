@@ -1,0 +1,11 @@
+[t69]
+FileName1=t69.htm
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?page=search
+Total=1
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t69_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_19.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

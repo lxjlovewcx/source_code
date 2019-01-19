@@ -1,0 +1,13 @@
+[t145]
+FileName1=t145.htm
+URL1=http://127.0.0.1:1080/WebTours/login.pl
+Total=1
+RequestHeaderFile=t145_RequestHeader.txt
+RequestBodyFile=t145_RequestBody.txt
+ResponseHeaderFile=t145_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_13.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

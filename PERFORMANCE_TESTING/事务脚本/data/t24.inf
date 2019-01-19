@@ -1,0 +1,13 @@
+[t24]
+FileName1=t24_config.xml
+URL1=http://bho.xl7.xunlei.com/platform/2.5.x.xxxx/config.xml
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

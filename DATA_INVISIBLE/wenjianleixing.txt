@@ -1,0 +1,36 @@
+
+
+respon = urlopen(json_url)
+返回的文件类型为<http.client.HTTPResponse object at 0x056CF750>
+
+file_object = respon.read()
+返回的是b'[{\n    "date": "2017-01-01",]类型的
+
+with open(filename) as f:
+f 返回的类型是<_io.TextIOWrapper name='haha.json' mode='r' encoding='cp936'>
+
+with open(filename, 'wb') as f:
+    f.write(file)
+如果是在with语句中加wb，则要求写入文件file的类容必须是二进制的。
+
+file_urllib = json.loads(req)
+返回的是一个list，不是list可迭代对象
+
+request = requests.get(json_url)
+返回的request的类型为<Response [200]>
+
+request.text
+返回的是一个文本list形式的字符串，是字符串
+
+request.json()
+返回的是一个易于python处理的list，是列表是列表，不是字符串。
+
+with open(filename, 'w') as f:
+    f.write(file)
+如果是在with语句中加w，则要求写入文件file的类容必须是字符串格式的。
+
+with open(filename, 'w') as f:
+    json.load(f) f是一个包含json文档的文件对象
+Deserialize ``fp`` (a ``.read()``-supporting file-like object containing
+    a JSON document) to a Python object.
+

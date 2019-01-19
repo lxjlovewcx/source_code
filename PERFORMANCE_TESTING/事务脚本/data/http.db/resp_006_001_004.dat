@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- File version -->
+	<version>2.6.5.1000</version>
+    <!-- File date -->
+	<date>2014.7.11</date>
+	<!-- Min BHO platform version -->
+	<minplat>2.5.3.1000</minplat>
+	<package>
+		<name>thunderplatform</name>
+		<type>library</type>
+		<enable>1</enable>
+		<date>2013.06.30</date> 
+		<files>thunderplatform\code\code.xbr;thunderplatform\com\bhoprofile.xml;</files>
+		<version>2.0.0.1000</version>
+	</package>
+	<package>
+		<name>thunderdownload</name>
+		<type>browser</type>
+		<enable>1</enable>
+		<date>2014.01.16</date>
+		<files>thunderdownload\code\code.xbr;</files>
+		<version>2.0.3.1000</version>
+	</package>
+	<package>
+		<name>thunderexperience</name>
+		<type>browser</type>
+		<enable>0</enable>
+		<date>2014.07.11</date>
+		<files>thunderexperience\code\code.xbr;</files>
+		<version>2.6.5.1000</version>
+	</package>
+	<package>
+		<name>thunderupdate</name>
+		<type>service</type>
+		<enable>1</enable>
+		<date>2014.01.15</date>
+		<files>thunderupdate\code\code.xbr;</files>
+		<version>2.0.1.1000</version>
+	</package>
+	<package>
+		<name>thundersecurity</name>
+		<type>service</type>
+		<enable>1</enable>
+		<date>2014.01.15</date>
+		<files>thundersecurity\code\code.xbr;</files>
+		<version>2.0.1.1000</version>
+	</package>
+	<package>
+		<name>thundertest</name>
+		<type>all</type>
+		<enable>0</enable>
+		<date>2014.01.15</date>
+		<files>thundertest\code\code.xbr;</files>
+		<version>2.0.1.1000</version>
+	</package>
+</config>

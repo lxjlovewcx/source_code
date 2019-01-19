@@ -1,0 +1,13 @@
+[t135]
+FileName1=t135.htm
+URL1=http://127.0.0.1:1080/WebTours/header.html
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t135_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t135_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

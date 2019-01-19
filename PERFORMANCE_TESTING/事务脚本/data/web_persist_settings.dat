@@ -1,0 +1,25 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2016/10/21 03:36:09
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2016/10/21 03:38:03
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2016/10/21 03:42:52
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2016/10/21 03:45:50
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2016/10/21 03:47:16
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2016/10/21 03:53:13
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2016/10/21 03:56:14
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2016/10/21 03:57:21
+StartRecordingIsDst_8=0
+StartRecordingGMT_9=2016/10/21 03:58:23
+StartRecordingIsDst_9=0
+[UserHomePage]
+UserHomePage=https://www.baidu.com/
+[User-Agent]
+User-Agent=Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+[Security]
+UsingPersistForAuthentication=1

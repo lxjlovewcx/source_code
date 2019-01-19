@@ -1,0 +1,13 @@
+[t20]
+FileName1=t20.htm
+URL1=http://127.0.0.1:1080/WebTours/nav.pl?in=home
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

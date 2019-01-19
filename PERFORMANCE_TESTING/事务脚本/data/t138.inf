@@ -1,0 +1,13 @@
+[t138]
+FileName1=t138_favicon.ico
+URL1=http://www.bing.com/favicon.ico
+Total=1
+ContentType=image/x-icon
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

@@ -1,0 +1,15 @@
+[t171]
+FileName1=t171.htm
+URL1=http://127.0.0.1:1080/WebTours/
+Total=2
+RequestHeaderFile=t171_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t171_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t171_picinfo.html
+URL2=http://se.360.cn/cloud/picinfo.ini
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

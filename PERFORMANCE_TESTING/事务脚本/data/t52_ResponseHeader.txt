@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Expires: Fri, 21 Oct 2016 03:08:53 GMT
+Date: Fri, 21 Oct 2016 03:03:53 GMT
+Server: nginx/1.5.7
+Content-Type: application/octet-stream
+Content-Length: 2176
+Last-Modified: Tue, 23 Aug 2016 07:58:04 GMT
+ETag: "57bc020c-880"
+Cache-Control: max-age=300
+Accept-Ranges: bytes
+Age: 1
+X-Cache: HIT from cache.51cdn.com
+X-Via: 1.1 dxin116:6 (Cdn Cache Server V2.0), 1.1 ncdx22:10 (Cdn Cache Server V2.0)
+Connection: keep-alive
+

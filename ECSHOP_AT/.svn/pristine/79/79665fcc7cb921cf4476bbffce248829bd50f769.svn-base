@@ -1,0 +1,128 @@
+
+from selenium import webdriver
+import unittest 
+import random
+from time import time,sleep
+from selenium.webdriver.remote import switch_to
+from random import choice
+
+
+  
+class pl(unittest.TestCase):
+    def setUp(self):
+        #浏览器选择
+        self.driver=webdriver.Firefox()
+        
+        #地址
+        self.base_url_1="http://172.31.25.125/"
+        self.base_url_2="http://172.31.25.125/admin/"
+        #设置元素识别超时时间
+        self.driver.implicitly_wait(20)
+        #设置页面加载超时时间
+        self.driver.set_page_load_timeout(20)
+        #设置异步脚本加载超时时间
+        self.driver.set_script_timeout(20)
+        #浏览器最大化
+        self.driver.maximize_window()        
+        
+    def test(self):
+        #打开网页
+        driver=self.driver
+        #打开前台页面
+        driver.get(self.base_url_1)
+        #打开后台页面
+        ht="window.open('http://172.31.25.125/admin')"
+        driver.execute_script(ht)
+        driver.find_element_by_xpath("//a[@href='user.php']").click()
+        sleep(1)
+        #设置登录信息
+        username="刑天"
+        pwd="123456"
+        admin_username="admin"
+        admin_password="zxc123456789"
+        self.user_pl(driver,username,pwd)
+        self.admin_pl(driver,admin_username,admin_password)
+        self.duanyan(driver)
+       
+    def user_pl(self,driver,username,pwd):
+        #输入用户名
+        driver.find_element_by_name("username").send_keys(username)
+        #输入密码
+        driver.find_element_by_name("password").send_keys(pwd)
+        #点击登录
+        driver.find_element_by_name("submit").click()
+        #等待页面跳转
+        sleep(3)
+        #随机选择商品进入评论页
+        li_goods=driver.find_elements_by_class_name("goodsItem")
+        li_goods2=choice(li_goods)
+        s=li_goods2.find_element_by_tag_name("a").get_attribute("href")[34:]
+        driver.find_element_by_xpath("//a[@href='goods.php?id="+s+"']").click()
+        #评价等级选择
+        a=str(random.randint(1,5))
+        driver.find_element_by_xpath("//input[@value='"+a+"']").click()
+        #输入评论内容
+        a= str(time())
+        driver.find_element_by_name("content").send_keys(a)
+        driver.find_element_by_xpath("//input[@type='submit' and @class='f_r']").click()
+        sleep(1)
+        prompt= driver.switch_to_alert()
+        prompt.accept()
+        sleep(1)
+    def admin_pl(self,driver,admin_username,admin_password):
+        #获得当前窗口句柄
+        win_cur_handle=driver.current_window_handle
+        #切换窗口句柄
+        for i in driver.window_handles:
+            if i!=win_cur_handle:
+                driver.switch_to.window(i)    
+        #管理员登录
+        driver.find_element_by_name("username").send_keys(admin_username)
+        #输入密码
+        driver.find_element_by_name("password").send_keys(admin_password)
+        #点击登录
+        driver.find_element_by_xpath("//input[@value='进入管理中心']").click()
+        #等待页面跳转
+        sleep(1)
+        #定位子页面
+        fram_elment=driver.find_element_by_name("main-frame")
+        #切换到子页面
+        driver.switch_to_frame(fram_elment)
+        #进入评论页面
+        driver.find_element_by_xpath("//a[@href='comment_manage.php?act=list']").click()
+        #获取最新评论
+        list2= driver.find_element_by_xpath("//table[@cellspacing='1']").find_elements_by_tag_name("tr")
+        va=list2[1].find_elements_by_tag_name("td")
+        list1=va[0].text
+        print(list1)
+        driver.find_element_by_xpath("//input[@value='"+list1+"']").click()
+        sleep(1)
+        #允许评论
+        driver.find_element_by_name("sel_action").find_element_by_xpath("//option[@value='allow']").click()
+        driver.find_element_by_id("btnSubmit").click()
+        sleep(1)
+        prompt= driver.switch_to_alert()
+        prompt.accept()
+    def duanyan(self,driver):
+        #切换页面
+        win_cur_handle=driver.current_window_handle
+        for i in driver.window_handles:
+            if i!=win_cur_handle:
+                driver.switch_to.window(i)
+        #在商品页面显示的第一条评论
+        sleep(3)
+        #刷新页面
+        driver.refresh()
+        text1=driver.find_element_by_id("ECS_COMMENT").find_element_by_xpath("//li[@class='word']").find_element_by_tag_name("p").text
+        #进入用户管理中心
+        driver.find_element_by_link_text("用户中心").click()
+        sleep(3)
+        driver.find_element_by_xpath("//img[@src='themes/default/images/u11.gif']").click()
+        #评论内容查找
+        list2=driver.find_elements_by_xpath("//div[@class='msgBottomBorder']")
+        text2=list2[-1].text
+        #断言
+        self.assertEqual(text1,text2)
+    
+    def tearDown(self):
+        self.driver.quit()

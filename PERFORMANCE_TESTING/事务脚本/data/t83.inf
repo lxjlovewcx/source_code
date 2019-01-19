@@ -1,0 +1,13 @@
+[t83]
+FileName1=t83_in_itinerary.gif
+URL1=http://127.0.0.1:1080/WebTours/images/in_itinerary.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t83_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t83_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

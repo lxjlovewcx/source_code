@@ -1,0 +1,5 @@
+GET /platform/2.5.x.xxxx/config.xml HTTP/1.1
+User-Agent: curl-agent/1.0
+Host: bho.xl7.xunlei.com
+Accept: */*
+

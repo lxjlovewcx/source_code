@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\Administrator\Desktop\事务脚本\事务脚本\res\localhost_1.eve

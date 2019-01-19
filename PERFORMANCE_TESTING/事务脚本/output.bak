@@ -1,0 +1,52 @@
+Virtual User Script started at : 2018-05-20 10:37:30
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 9409 (Jan 11 2012 11:34:16)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\Users\Johannescui\Desktop\2018.3.15\51Testing性能自动化培训文档\The 1Day LL\The First Day脚本\添加事务_18Page\事务脚本\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_url("picinfo.ini") was successful, 2176 body bytes, 402 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(20): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+vuser_init.c(20): Detected non-resource "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+vuser_init.c(20): Downloading resource "http://www.bing.com/favicon.ico" (specified by argument number 9)  	[MsgId: MMSG-26577]
+vuser_init.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+vuser_init.c(20): Detected non-resource "http://127.0.0.1:1080/WebTours/nav.pl?in=home" in "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(20): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+vuser_init.c(20): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(20): web_url("WebTours") was successful, 6686 body bytes, 1953 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(32): Notify: Transaction "登录开始事务" started.
+vuser_init.c(35): Submitting form to "http://127.0.0.1:1080/WebTours/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+vuser_init.c(35): Detected non-resource "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/WebTours/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(35): Detected non-resource "http://127.0.0.1:1080/WebTours/login.pl?intro=true" in "http://127.0.0.1:1080/WebTours/login.pl"  	[MsgId: MMSG-26574]
+vuser_init.c(35): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(35): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(35): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(35): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+vuser_init.c(35): web_submit_form("login.pl") was successful, 5693 body bytes, 1538 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(45): Notify: Transaction "登录开始事务" ended with "Pass" status (Duration: 0.5046 Wasted Time: 0.0071).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Starting action Action.
+Action.c(6): Notify: Transaction "打开登录主页事务" started.
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/WebTours/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome" in "http://127.0.0.1:1080/WebTours/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(8): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(8): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("welcome.pl") was successful, 8360 body bytes, 1173 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): Notify: Transaction "打开登录主页事务" ended with "Pass" status (Duration: 0.8018 Wasted Time: 0.0053).
+Action.c(19): web_custom_request("wdinfo.php") was successful, 78 body bytes, 201 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(6): Detected non-resource "http://127.0.0.1:1080/WebTours/nav.pl?in=home" in "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(6): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+vuser_end.c(6): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+vuser_end.c(6): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): web_url("welcome.pl_3") was successful, 2021 body bytes, 623 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,45 @@
+import unittest
+from selenium import webdriver
+from denglu111.qq import Logincll
+from denglu111.qq1 import Login123
+from time import time
+class TestFriendlyLink(unittest.TestCase):  
+    def setUp(self):
+        self.driver=webdriver.Chrome()
+        self.base_url="http://172.31.31.100:8200/"
+        #设置元素超时时间
+        self.driver.implicitly_wait(10)
+        #页面加载超时时间
+        self.driver.set_page_load_timeout(10)
+        #异步脚本加载的超时时间
+        self.driver.set_script_timeout(10)
+        #窗口最大化
+        self.driver.maximize_window()  
+        
+    
+    def test_01(self):
+        for i in range(100):
+            driver=self.driver 
+            driver.get(self.base_url)
+            email_a="1450732536@qq.com"
+            password_a="123456"
+            actural_name1="李龙"
+            email_b="851677798@qq.com"
+            password_b="123456"   
+            actural_name2="李雪健"   
+            accrig_list=['任何人可见','仅好友可见','私密日记','凭密码访问']
+            accrig=accrig_list[0]
+    # 3品论权限：任何人可评论，好友可评论，关闭评论
+            comrig_list=["任何人可评论","好友可评论","关闭评论"]
+            comrig=comrig_list[0]
+            content=accrig+"+"+comrig+str(time())
+#     print() 
+            Logincll(driver,email_a,password_a,actural_name1)
+            Login123(driver,accrig,comrig,content)
+#       
+    def tearDown(self):
+        self.driver.quit()
+          
+if __name__ == "__main__":
+    #import sys;sys.argv = ['', 'Test.testName']
+    unittest.main()

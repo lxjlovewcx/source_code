@@ -1,0 +1,11 @@
+[t85]
+FileName1=t85.htm
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1
+Total=1
+RequestHeaderFile=t85_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t85_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_35.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

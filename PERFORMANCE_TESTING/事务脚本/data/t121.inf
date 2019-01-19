@@ -1,0 +1,13 @@
+[t121]
+FileName1=t121.htm
+URL1=http://127.0.0.1:1080/WebTours/reservations.pl
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_26.xml
+RequestHeaderFile=t121_RequestHeader.txt
+RequestBodyFile=t121_RequestBody.txt
+ResponseHeaderFile=t121_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

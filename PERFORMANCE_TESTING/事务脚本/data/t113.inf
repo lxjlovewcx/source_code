@@ -1,0 +1,13 @@
+[t113]
+FileName1=t113_in_home.gif
+URL1=http://127.0.0.1:1080/WebTours/images/in_home.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t113_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t113_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

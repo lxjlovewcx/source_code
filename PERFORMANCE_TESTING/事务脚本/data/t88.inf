@@ -1,0 +1,11 @@
+[t88]
+FileName1=t88.htm
+URL1=http://127.0.0.1:1080/WebTours/
+Total=1
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

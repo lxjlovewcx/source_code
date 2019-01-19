@@ -1,0 +1,20 @@
+1531794979816	geckodriver	INFO	geckodriver 0.19.1
+1531794979826	geckodriver	INFO	Listening on 127.0.0.1:51223
+1531794982866	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.dVm8VaO6DaEg"
+1531794987266	Marionette	INFO	Listening on port 51231
+1531794988322	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator.USER-20170711LE\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li  class=\"cloud_close\">no_license<a href=\"http:\/\/bbs.ecshop.com\/thread-197647-1-1.html\" target=\"_blank\" >\u70b9\u51fb\u67e5\u770b<a\/><img onclick=\"cloud_close(1)\" src=\"images\/no.gif\"><\/li>"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+Unable to read VR Path Registry from C:\Users\Administrator.USER-20170711LE\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator.USER-20170711LE\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

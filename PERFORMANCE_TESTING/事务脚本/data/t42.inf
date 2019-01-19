@@ -1,0 +1,13 @@
+[t42]
+FileName1=t42.htm
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?page=itinerary
+Total=1
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_30.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

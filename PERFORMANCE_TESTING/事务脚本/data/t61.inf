@@ -1,0 +1,13 @@
+[t61]
+FileName1=t61_config.xml
+URL1=http://bho.xl7.xunlei.com/platform/2.5.x.xxxx/config.xml
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_11.xml
+RequestHeaderFile=t61_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t61_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

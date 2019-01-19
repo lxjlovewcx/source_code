@@ -1,0 +1,13 @@
+[t169]
+FileName1=t169.htm
+URL1=http://127.0.0.1:1080/WebTours/home.html
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_37.xml
+RequestHeaderFile=t169_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t169_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

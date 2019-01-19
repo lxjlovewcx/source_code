@@ -1,0 +1,5 @@
+GET /cloud/picinfo.ini HTTP/1.1
+Host: se.360.cn
+Accept: */*
+Cache-Control: no-cache
+

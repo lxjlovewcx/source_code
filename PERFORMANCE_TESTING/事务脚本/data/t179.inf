@@ -1,0 +1,13 @@
+[t179]
+FileName1=t179.html
+URL1=http://qurl.f.360.cn/wdinfo.php
+Total=1
+RequestHeaderFile=t179_RequestHeader.txt
+RequestBodyFile=t179_RequestBody.txt
+ResponseHeaderFile=t179_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_5.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

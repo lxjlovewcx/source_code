@@ -1,0 +1,13 @@
+[t136]
+FileName1=t136_hp_logo.png
+URL1=http://127.0.0.1:1080/WebTours/images/hp_logo.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t136_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t136_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=1

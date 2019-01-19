@@ -1,0 +1,353 @@
+1531552869578	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531552869588	geckodriver	INFO	Listening on 127.0.0.1:52674
+1531552871687	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.Js4vQpwHejG5"
+1531552874775	Marionette	INFO	Listening on port 52682
+1531552874973	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531552875001	Marionette	DEBUG	[6442450945] Frame script loaded
+1531552875002	Marionette	DEBUG	[6442450945] Frame script registered
+1531552875021	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531552875237	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531552875503	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531552875918	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531552876259	Marionette	INFO	Stopped listening on port 52682
+1531552876315	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531552902082	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531552902102	geckodriver	INFO	Listening on 127.0.0.1:52744
+1531552904122	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.6JFSfgPURxJP"
+1531552907253	Marionette	INFO	Listening on port 52751
+1531552907505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531552907520	Marionette	DEBUG	[6442450945] Frame script loaded
+1531552907521	Marionette	DEBUG	[6442450945] Frame script registered
+1531552907537	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531552907728	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531552908428	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531552909174	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531552911298	Marionette	INFO	Stopped listening on port 52751
+1531552931439	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531552931439	geckodriver	INFO	Listening on 127.0.0.1:52791
+1531552933469	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.ZlyQ1lKdS88x"
+1531552936523	Marionette	INFO	Listening on port 52798
+1531552936731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531552936759	Marionette	DEBUG	[6442450945] Frame script loaded
+1531552936759	Marionette	DEBUG	[6442450945] Frame script registered
+1531552936775	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531552937044	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531552937386	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531552938016	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531552938070	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531552938524	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531552938529	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531552938837	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531552938845	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531552940854	Marionette	INFO	Stopped listening on port 52798
+1531553281290	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531553281290	geckodriver	INFO	Listening on 127.0.0.1:52941
+1531553283330	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.Ne4jVJxNBRAR"
+1531553286568	Marionette	INFO	Listening on port 52948
+1531553286653	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531553286702	Marionette	DEBUG	[6442450945] Frame script loaded
+1531553286709	Marionette	DEBUG	[6442450945] Frame script registered
+1531553286743	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531553287040	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531553287124	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531553287948	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531553288007	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531553288175	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531553288178	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531553288425	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531553288441	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531553293467	Marionette	INFO	Stopped listening on port 52948
+1531554478210	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531554478220	geckodriver	INFO	Listening on 127.0.0.1:53100
+1531554480290	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.WwBQquyiDGcG"
+1531554483691	Marionette	INFO	Listening on port 53106
+1531554484251	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531554484303	Marionette	DEBUG	[6442450945] Frame script loaded
+1531554484304	Marionette	DEBUG	[6442450945] Frame script registered
+1531554484439	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531554484603	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531554484758	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531554485095	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Child 8116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531554485601	Marionette	INFO	Stopped listening on port 53106
+1531557506979	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531557506989	geckodriver	INFO	Listening on 127.0.0.1:53381
+1531557509039	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.Z1p221oJkGEu"
+1531557512715	Marionette	INFO	Listening on port 53388
+1531557512845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531557512883	Marionette	DEBUG	[6442450945] Frame script loaded
+1531557512883	Marionette	DEBUG	[6442450945] Frame script registered
+1531557512922	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531557513125	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531557513604	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531557514625	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531557514714	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531557514784	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531557514787	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531557514813	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531557514842	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531557514864	Marionette	INFO	Stopped listening on port 53388
+1531557514893	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531557618625	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531557618635	geckodriver	INFO	Listening on 127.0.0.1:53424
+1531557620665	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.MDvbKcvuAGI6"
+1531557623840	Marionette	INFO	Listening on port 53432
+1531557624030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531557624057	Marionette	DEBUG	[6442450945] Frame script loaded
+1531557624058	Marionette	DEBUG	[6442450945] Frame script registered
+1531557624077	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531557624257	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531557624749	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531557625612	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531557625680	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531557625844	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531557625847	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531557625891	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531557625898	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531557625903	Marionette	INFO	Stopped listening on port 53432
+1531557625930	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 4144, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1531557756743	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531557756753	geckodriver	INFO	Listening on 127.0.0.1:53500
+1531557758803	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.MeOGHvgImdjP"
+1531557761994	Marionette	INFO	Listening on port 53507
+1531557762232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531557762263	Marionette	DEBUG	[6442450945] Frame script loaded
+1531557762264	Marionette	DEBUG	[6442450945] Frame script registered
+1531557762280	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531557762457	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531557762812	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531557764005	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531557764063	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531557764139	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531557764144	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531557764198	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531557764371	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531557764396	Marionette	INFO	Stopped listening on port 53507
+1531557764447	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:330
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1531557796403	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531557796413	geckodriver	INFO	Listening on 127.0.0.1:53547
+1531557798453	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.C5h6McKOX89E"
+1531557801712	Marionette	INFO	Listening on port 53554
+1531557802217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531557802276	Marionette	DEBUG	[6442450945] Frame script loaded
+1531557802276	Marionette	DEBUG	[6442450945] Frame script registered
+1531557802293	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531557802406	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531557802535	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531557803319	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531557803419	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531557803483	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531557803486	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531557803525	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531557803532	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531557809063	Marionette	INFO	Stopped listening on port 53554
+1531557925135	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531557925135	geckodriver	INFO	Listening on 127.0.0.1:53632
+1531557927186	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.K6sNvhICkPNr"
+1531557930276	Marionette	INFO	Listening on port 53639
+1531557930485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531557930517	Marionette	DEBUG	[6442450945] Frame script loaded
+1531557930520	Marionette	DEBUG	[6442450945] Frame script registered
+1531557930626	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531557930866	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531557930978	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531557931812	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531557931870	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531557931928	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531557931931	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531557931966	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531557932239	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531557932880	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531557932913	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531557933013	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531557933015	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531557933068	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531557933090	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531557938123	Marionette	INFO	Stopped listening on port 53639
+1531558095487	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531558095497	geckodriver	INFO	Listening on 127.0.0.1:53726
+1531558097557	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.dOdD3D3dEQkU"
+1531558100784	Marionette	INFO	Listening on port 53733
+1531558100970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531558101005	Marionette	DEBUG	[6442450945] Frame script loaded
+1531558101007	Marionette	DEBUG	[6442450945] Frame script registered
+1531558101022	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531558101204	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531558101599	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531558102356	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531558102426	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531558102657	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531558102661	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531558102692	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531558102729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531558103372	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531558103454	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531558103522	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531558103524	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531558103558	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531558103593	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531558110635	Marionette	INFO	Stopped listening on port 53733
+1531558281384	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531558281394	geckodriver	INFO	Listening on 127.0.0.1:53813
+1531558283454	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.9yvTdsJq9hi4"
+1531558286691	Marionette	INFO	Listening on port 53820
+1531558286702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531558286737	Marionette	DEBUG	[6442450945] Frame script loaded
+1531558286827	Marionette	DEBUG	[6442450945] Frame script registered
+1531558287002	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531558287192	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531558287272	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531558288167	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531558288220	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531558288296	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531558288299	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531558288345	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531558288643	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531558289218	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531558289297	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531558289391	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531558289393	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531558289457	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531558289482	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531558294539	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531558294646	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531558294649	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531558294711	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531558294726	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531558294775	Marionette	INFO	Stopped listening on port 53820
+1531558404303	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531558404313	geckodriver	INFO	Listening on 127.0.0.1:53902
+1531558406383	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.lJGrzJSFpDwF"
+1531558409510	Marionette	INFO	Listening on port 53909
+1531558409643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531558409675	Marionette	DEBUG	[6442450945] Frame script loaded
+1531558409676	Marionette	DEBUG	[6442450945] Frame script registered
+1531558409706	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531558409950	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531558410080	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531558410890	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531558411109	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531558411202	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531558411210	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531558411251	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531558411281	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531558411909	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531558411986	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531558412060	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531558412061	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531558412089	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531558412101	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531558417166	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531558417247	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531558417248	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531558417296	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531558417301	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531558420364	Marionette	INFO	Stopped listening on port 53909
+1531558531502	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531558531512	geckodriver	INFO	Listening on 127.0.0.1:53990
+1531558533562	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1.USE\\AppData\\Local\\Temp\\rust_mozprofile.aTxC03JfSq6i"
+1531558536621	Marionette	INFO	Listening on port 53997
+1531558536901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531558536930	Marionette	DEBUG	[6442450945] Frame script loaded
+1531558536931	Marionette	DEBUG	[6442450945] Frame script registered
+1531558536948	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1531558537145	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1531558537348	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/
+1531558538209	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/
+1531558538309	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/
+1531558538391	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/
+1531558538397	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/
+1531558538442	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=register
+1531558538474	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=register
+1531558539083	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1531558539186	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php?act=register
+1531558539248	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php?act=register
+1531558539250	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php?act=register
+1531558539274	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php
+1531558539279	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php
+1531558544340	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://172.31.25.125/user.php
+1531558544410	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://172.31.25.125/user.php
+1531558544416	Marionette	DEBUG	[6442450945] Received DOM event unload for http://172.31.25.125/user.php
+1531558544467	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://172.31.25.125/user.php?act=profile
+1531558544473	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://172.31.25.125/user.php?act=profile
+1531558547534	Marionette	INFO	Stopped listening on port 53997
