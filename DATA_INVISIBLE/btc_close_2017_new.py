@@ -12,7 +12,7 @@ with open('hehe.json', 'w') as f:
     f.write(request.text)
 with open('hehe.json') as f:
     file_objects = json.load(f)
-77
+
 dates = []
 months = []
 weeks = []
@@ -44,3 +44,11 @@ def draw_line(x_data, y_data, title, y_legend):
 index = dates.index("2017-12-01")
 line_chart_month = draw_line(months[:index], closes[:index], title="月均收盘价", y_legend="price")
 line_chart_month
+
+with open('Dashboard.html', 'w', encoding='utf-8') as html_file: #以
+    html_file.write('<html><head><title>Dashboard.html</title><meta charset="utf-8"></head><body>\n')
+    for svg in [
+        'die_visual1.svg', 'die_visual2.svg', 'die_visual3.svg', 'die_visual4.svg', 'die_visual5.svg', 'die_visual6.svg'
+    ]:
+        html_file.write('     <object type="image/svg+xml" data="{0}" height=500></object>\n'.format(svg))
+    html_file.write('</body></html>')
